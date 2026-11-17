@@ -1,0 +1,50 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Dataset (large, not tracked)
+dataset/
+!dataset/.gitkeep
+
+# Models (large, not tracked)
+models/
+!models/.gitkeep
+
+# Results (generated)
+!results/.gitkeep
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# TensorBoard
+models/logs/
+
+# Environment variables
+.env
+.env.local
+
+# PyInstaller
+*.spec
+build/
+dist/
