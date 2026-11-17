@@ -21,17 +21,21 @@ The system classifies waste into **six categories**:
 
 ## ❓ Problem Statement
 
-Manual waste sorting is:
-- **Labor-intensive** and costly
-- **Error-prone** due to human fatigue
-- **Inconsistent** across different workers
-- **Slow** for high-volume waste streams
+Waste segregation is an important environmental and operational challenge.
+When recyclable materials are mixed with general waste, recycling becomes more
+difficult, contamination increases, and more waste may be sent to landfills.
 
-Automated classification using CNNs offers:
-- ✅ High accuracy with transfer learning
-- ✅ Real-time inference capability
-- ✅ Consistent performance 24/7
-- ✅ Scalable to multiple sorting stations
+Manual waste sorting is:
+
+- Labor-intensive and costly
+- Time-consuming for large quantities of waste
+- Subject to human fatigue and inconsistent decisions
+- Difficult when waste materials have similar visual characteristics
+
+This project addresses the problem by developing an image-based waste
+classification system using computer vision and deep learning. The system
+accepts an image of a waste item and predicts one of six categories:
+cardboard, glass, metal, paper, plastic, or trash.
 
 ---
 
